@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Team Generator</h1>
+    <p class="sub-header">Effortlessly create balanced teams for your group activities!</p>
+    <form id="teamForm">
+      <div class="form-group">
+        <label for="totalStudents">Total Students:</label>
+        <input type="number" id="totalStudents" placeholder="Enter total students" required>
+      </div>
+      <div class="form-group">
+        <label for="teamSize">Team Size:</label>
+        <input type="number" id="teamSize" placeholder="Enter team size" required>
+      </div>
+      <button type="submit">Generate Teams</button>
+    </form>
+    <div id="output"></div>
+  </div>
+  <!-- <footer class="footer">© 2024 Team Generator Inc. | Built with ❤️</footer> -->
+  <script src="static/script.js"></script>
+</body>
+</html>
